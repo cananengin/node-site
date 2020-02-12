@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+header .navbar{
+    border-radius: 0;
+    margin: 0;
+} 
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1581272408424-5077d06e8322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    min-height: 650px;
+    position: relative;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.hero-content h2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 300;
+}
+.hero-content p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.hero-content .btn {
+    border-radius: 5px;
+    padding: 20px 30px;
+    background: none;
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+}
+.hero-content .btn:hover {
+    font-weight: bolder;
+}
+main {
+    min-height: 500px;
+    padding: 50px 0;
+}
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #222;
+    color: #bbb;
+    font-weight: 300;
+}
